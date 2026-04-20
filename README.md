@@ -8,7 +8,7 @@ The core question it answers is simple:
 
 > Did my AI coding agent do anything it should not have?
 
-## What sentinel does that gryph does not
+## What sentinel does over gryph
 
 `gryph` gives you the audit trail.
 `gryph-sentinel` gives you the security interpretation of that audit trail.
