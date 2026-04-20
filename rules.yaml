@@ -1,0 +1,12 @@
+rules:
+  - name: local-secret-read
+    description: Detect reads of example secret files
+    action_type: file_read
+    pattern: '(\.env$|secrets\.txt$)'
+    severity: medium
+
+  - name: local-notes-write
+    description: Detect writes to scratch notes in the repo
+    action_type: file_write
+    pattern: '(^|/)notes\.txt$'
+    severity: low
